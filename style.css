@@ -2,6 +2,10 @@ html {
   height: 100%;
   width: 100%;
 }
+@font-face {
+    font-family: Impact-Strive;
+    src: url("Impact-Strive.otf") format("opentype");
+}
 a:link{
   color: #d754ff;
   background-color: transparent;
@@ -19,8 +23,17 @@ header{
 }
 
 body {background-color: #212121;}
-pre {color: white;}
-h1 {text-align: center}
-h1 {color: white}
-h2 {color: white}
-p {color: white}
+pre {
+  font-family: "Verdana";
+  color: white;}
+h1 {
+  font-family: "Impact-Strive";
+  text-align: center;
+  color: white;}
+h2 {
+  font-family: "Impact-Strive";
+  color: white;
+  text-align:center;}
+p {
+  font-family: "Verdana";
+  color: white;}
